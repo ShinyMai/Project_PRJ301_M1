@@ -159,7 +159,8 @@
      }
      /*==========  MOBILE  MENU ==========*/
      .navbar-fixed-top,
-     .navbar-fixed-top, .navbar-collapse{
+     .navbar-fixed-top .navbar-collapse,
+     {
          width: 100%;
          max-height: none;
      }
