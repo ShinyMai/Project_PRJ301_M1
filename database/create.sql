@@ -1,5 +1,6 @@
-use Hotel
+CREATE DATABASE Hotel;
 
+use Hotel;
 create table account(
 	loginid varchar(25) not null primary key,
 	[password] varchar(25) not null,
@@ -43,7 +44,7 @@ create table item(
 create table roomtype(
 	roomtypeid int not null primary key,
 	roomtype varchar(100) not null,
-	rommimg varchar(100) not null,
+	rommimg varchar(MAX) not null,
 	[description] text not null,
 	cost float not null
 )
