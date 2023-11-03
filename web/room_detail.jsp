@@ -1,3 +1,10 @@
+<%-- 
+    Document   : room_detail
+    Created on : Nov 4, 2023, 5:17:19 AM
+    Author     : Shiny
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 

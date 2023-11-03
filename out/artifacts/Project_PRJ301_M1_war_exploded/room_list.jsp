@@ -106,7 +106,7 @@
                             <a href="about-us.html">ABOUT US</a>
                         </li>
                         <li class="dropdown simple_menu active">
-                            <a href="rooms-block.html">ROOMS</a>
+                            <a href="room_list.jsp">ROOMS</a>
                         </li>
                         <li class="dropdown simple_menu"><a href="gallery.html">GALLERY</a>
                         </li>
