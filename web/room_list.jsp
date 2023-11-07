@@ -145,7 +145,7 @@
                       <div class="row row-flex">
                           <div class="col-lg-4 col-md-5 col-sm-12">
                               <figure>
-                                  <a href="room2.html" class="hover_effect h_link h_blue">
+                                  <a href="room_detail.jsp" class="hover_effect h_link h_blue">
                                       <img src="${room.roomimg}" class="img-responsive" alt="Image">
                                   </a>
                               </figure>
@@ -153,7 +153,7 @@
                           <div class="col-lg-8 col-md-7 col-sm-12">
                               <div class="room_details row-flex">
                                   <div class="col-md-9 col-sm-9 col-xs-12 room_desc">
-                                      <h3><a href="room2.html"> ${room.roomtype} </a></h3>
+                                      <h3><a href="room_detail.jsp"> ${room.roomtype} </a></h3>
                                       <p>${room.description}</p>
                                       <div class="room_services">
                                           <i class="fa fa-coffee" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Breakfast Included" data-original-title="Breakfast"></i>
@@ -164,7 +164,7 @@
                                       <div class="room_price_inner">
                                           <span class="room_price_number"> <fmt:formatNumber value="${room.cost}" type="number" pattern="#,##0.###"/> ₫  </span>
                                           <small class="upper"> per night </small>
-                                          <a href="room2.html" class="button  btn_blue btn_full upper">Book Now</a>
+                                          <a href="room_detail.jsp" class="button  btn_blue btn_full upper">Book Now</a>
                                       </div>
                                   </div>
                               </div>

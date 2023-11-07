@@ -101,11 +101,11 @@
                         <li class="dropdown simple_menu active">
                             <a href="index.html">HOME</a>
                         </li>
-                        <li class="dropdown simple_menu active">
+                        <li class="dropdown simple_menu">
                             <a href="about-us.html">ABOUT US</a>
                         </li>
-                        <li class="dropdown simple_menu">
-                            <a href="rooms-block.html">ROOMS</a>
+                        <li class="dropdown simple_menu active">
+                            <a href="room" type="submit">ROOMS</a>
                         </li>
                         <li class="dropdown simple_menu"><a href="gallery.html">GALLERY</a>
                         </li>
@@ -121,7 +121,6 @@
             </div>
         </header>
 
-        <!-- =========== PAGE TITLE ========== -->
         <div class="page_title gradient_overlay" style="background: url(images/page_title_bg.jpg);">
             <div class="container">
                 <div class="inner">
@@ -150,143 +149,6 @@
         <main id="room_page">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="sidebar">
-                            <aside class="widget">
-                                <div class="vbf">
-                                    <h2 class="form_title"><i class="fa fa-calendar"></i> BOOK ONLINE</h2>
-                                    <form id="booking-form" class="inner">
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-name" placeholder="Enter Your Name" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-email" placeholder="Enter Your Email Address" type="email">
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-phone" placeholder="Enter Your Phone Number" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="form_select">
-                                                <select name="booking-roomtype" class="form-control" title="Select Room Type" data-header="Room Type" disabled>
-                                                    <option value="Single Room" selected>Single Room</option>
-                                                    <option value="Double Room">Double Room</option>
-                                                    <option value="Deluxe Room">Deluxe Room</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="form_select">
-                                                <select name="booking-adults" class="form-control md_noborder_right" title="Adults" data-header="Adults">
-                                                    <option value="0">0</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="form_select">
-                                                <select name="booking-children" class="form-control" title="Children" data-header="Children">
-                                                    <option value="0">0</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="input-group">
-                                                <div class="form_date">
-                                                    <input class="datepicker form-control md_noborder_right" name="booking-checkin" placeholder="Arrival Date" type="text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="input-group">
-                                                <div class="form_date">
-                                                    <input class="datepicker form-control" name="booking-checkout" placeholder="Departure Date" type="text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button class="button btn_lg btn_blue btn_full" type="submit">BOOK A ROOM NOW</button>
-                                        <div class="a_center mt10">
-                                            <a href="booking-form.html" class="a_b_f">Advanced Booking Form</a>
-                                        </div>
-                                    </form>
-                                </div>
-                            </aside>
-                            <aside class="widget">
-                                <h4>NEED HELP?</h4>
-                                <div class="help">
-                                    If you have any question please don't hesitate to contact us
-                                    <div class="phone"><i class="fa  fa-phone"></i><a href="tel:18475555555"> 1-888-123-4567 </a></div>
-                                    <div class="email"><i class="fa  fa-envelope-o "></i><a href="mailto:contact@site.com">contact@site.com</a> or use <a href="contact.html"> contact form</a></div>
-                                </div>
-                            </aside>
-                            <aside class="widget">
-                                <h4>Latest Posts</h4>
-                                <div class="latest_posts">
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb1.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">Live your myth in Greece</a></h6>
-                                            <span><i class="fa fa-calendar"></i>23/11/2017</span>
-                                        </div>
-                                    </article>
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb2.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">Hotel Zante in pictures</a></h6>
-                                            <span><i class="fa fa-calendar"></i>18/10/2017</span>
-                                        </div>
-                                    </article>
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb3.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">Hotel Zante family party</a></h6>
-                                            <span><i class="fa fa-calendar"></i>13/08/2017</span>
-                                        </div>
-                                    </article>
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb4.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">Hotel Zante weddings</a></h6>
-                                            <span><i class="fa fa-calendar"></i>13/08/2017</span>
-                                        </div>
-                                    </article>
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb5.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">10 things you should know</a></h6>
-                                            <span><i class="fa fa-calendar"></i>13/08/2017</span>
-                                        </div>
-                                    </article>
-                                </div>
-                            </aside>
-                        </div>
-                    </div>
                     <div class="col-md-8">
                         <div class="slider">
                             <div id="slider-larg" class="owl-carousel image-gallery">
@@ -361,45 +223,20 @@
                         <div class="main_title mt50">
                             <h2>ABOUT HOTEL ZANTE</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
+                        <p>Atlantis Hotel Complex is located just a very short distance away from the beach of Laganas, which is the most popular tourist resort in Zakynthos. Combining a very 
+                            privileged location with a wonderful view and a great surrounding landscape, Atlantis Hotel is the ideal place to enjoy relaxed, pleasant vacations. Staying at 
+                            Atlantis Hotel you may find a perfect balance between having fun and relaxing, having an large number of options to choose from, whatever type of enjoyment you may 
+                            prefer.</p>
                         
-                        <p> at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius</p>
+                        <p> Atlantis Hotel will surely satisfy guests of every age! We will make sure that your stay with us is as pleasant and special as possible! Atlantis Being at just the 
+                            right spot, Atlantis Hotel offers an ideal combination of relaxation and the lively cosmopolitan life of the center of Laganas resort. Laganas is the most 
+                            cosmopolitan resort in Zante, a dreamland of choices for those who like the best in nightlife experiences. The wide and long (9 km) sandy beach is one of the 
+                            largest in Greece. It has clear, shallow waters, ideal for children.</p>
+                            
+                        <p>All units at Zante Atlantis Hotel feature a TV and open to a balcony. 
+                            Featuring a bath or shower, private bathroom also comes with a hairdryer. You can enjoy mountain view from the room. Air conditioning and safe come standard.
+                            At Zante Atlantis Hotel you will find a hot tub, a 24-hour front desk and a bar. The property offers free parking. </p>
                         
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                        
-                        <div class="main_title t_style a_left s_title mt50">
-                            <div class="c_inner">
-                                <h2 class="c_title">ROOM SERVICES</h2>
-                            </div>
-                        </div>
-                        <div class="room_facilitys_list">
-                            <div class="all_facility_list">
-                                <div class="col-sm-4 nopadding">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fa fa-check"></i>Double Bed</li>
-                                        <li><i class="fa fa-check"></i>80 Sq mt</li>
-                                        <li><i class="fa fa-check"></i>6 Persons</li>
-                                        <li><i class="fa fa-check"></i>Free Internet</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 nopadding">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fa fa-check"></i>Free Wi-Fi</li>
-                                        <li><i class="fa fa-check"></i>Breakfast Include</li>
-                                        <li><i class="fa fa-check"></i>Private Balcony</li>
-                                        <li class="no"><i class="fa fa-times"></i>Free Newspaper</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 nopadding_left">
-                                    <ul class="list-unstyled">
-                                        <li class="no"><i class="fa fa-times"></i>Flat Screen Tv</li>
-                                        <li><i class="fa fa-check"></i>Full Ac</li>
-                                        <li class="no"><i class="fa fa-times"></i>Beach View</li>
-                                        <li><i class="fa fa-check"></i>Room Service</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                         <div class="similar_rooms">
                             <div class="main_title t_style5 l_blue s_title a_left">
                                 <div class="c_inner">
@@ -443,50 +280,135 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            <aside class="widget">
+                                <div class="vbf">
+                                    <h2 class="form_title"><i class="fa fa-calendar"></i> BOOK ONLINE</h2>
+                                    <form id="booking-form" class="inner">
+                                        <div class="form-group">
+                                            <input class="form-control" name="booking-name" placeholder="Enter Your Name" type="text">
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" name="booking-email" placeholder="Enter Your Email Address" type="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" name="booking-phone" placeholder="Enter Your Phone Number" type="text">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="form_select">
+                                                <select name="booking-roomtype" class="form-control" title="Select Room Type" data-header="Room Type" disabled>
+                                                    <option value="Single Room" selected>Single Room</option>
+                                                    <option value="Double Room">Double Room</option>
+                                                    <option value="Deluxe Room">Deluxe Room</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
+                                            <div class="form_select">
+                                                <select name="booking-adults" class="form-control md_noborder_right" title="Adults" data-header="Adults">
+                                                    <option value="0">0</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
+                                            <div class="form_select">
+                                                <select name="booking-children" class="form-control" title="Children" data-header="Children">
+                                                    <option value="0">0</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
+                                            <div class="input-group">
+                                                <div class="form_date">
+                                                    <input type="text" class="datepicker form-control md_noborder_right" name="booking-checkin" placeholder="Arrival Date" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
+                                            <div class="input-group">
+                                                <div class="form_date">
+                                                    <input type="text" class="datepicker form-control" name="booking-checkout" placeholder="Departure Date" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="button btn_lg btn_blue btn_full" type="submit">BOOK A ROOM NOW</button>
+                                        <div class="a_center mt10">
+                                            <a href="booking-form.html" class="a_b_f">Advanced Booking Form</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </aside>
+                            <aside class="widget">
+                                <h4>NEED HELP?</h4>
+                                <div class="help">
+                                    If you have any question please don't hesitate to contact us
+                                    <div class="phone"><i class="fa  fa-phone"></i><a href="tel:0565099468"> 0565-099-468 </a></div>
+                                    <div class="email"><i class="fa  fa-envelope-o "></i><a href="mailto:quangpn808@gmail.com">quangpn808@gmail.com</a> </div>
+                                </div>
+                            </aside>
+                            <aside class="widget">
+                                <div class="c_inner">
+                                    <h4 class="c_title">ROOM SERVICES</h4>
+                                </div>
+                                <div class="room_facilitys_list">
+                            <div class="all_facility_list">
+                                <div class="col-sm-6 nopadding">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-check"></i>Double Bed</li>
+                                        <li><i class="fa fa-check"></i>6 Persons</li>
+                                        <li><i class="fa fa-check"></i>Free Internet</li>
+                                        <li><i class="fa fa-check"></i>Room Service</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6 nopadding">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-check"></i>Free Wi-Fi</li>
+                                        <li><i class="fa fa-check"></i>Breakfast</li>
+                                        <li><i class="fa fa-check"></i>Private Balcony</li>                                     
+                                        <li class="no"><i class="fa fa-times"></i>Free Newspaper</li>
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                        </div>
+                            </aside>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
 
         <!-- ========== FOOTER ========== -->
-        <footer>
+       <footer>
             <div class="inner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 widget">
+                        <div class="col-md-6 col-sm-6 widget">
                             <div class="about">
                                 <a href="index.html"><img class="logo" src="images/logo.svg" height="32" alt="Logo"></a>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-                                <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                                <p>Located in a prime location, just minutes from popular attractions, civic centers, office buildings and entertainment shopping areas.</p>
+                                <p>Zante Hotel is an ideal stop to immerse yourself in the vibrant life of the city with luxurious experiences, modern facilities and professional services</p>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 widget">
-                            <h5>Latest News</h5>
-                            <ul class="blog_posts">
-                                <li><a href="blog-post.html">Live your myth in Greece</a> <small>AUGUST 13, 2017</small></li>
-                                <li><a href="blog-post.html">Hotel Zante in pictures</a> <small>AUGUST 16, 2017</small></li>
-                                <li><a href="blog-post.html">Hotel Zante family party</a> <small>SEPTEMBER 15, 2017</small></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-sm-6 widget">
-                            <h5>Useful Links</h5>
-                            <ul class="useful_links">
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">History</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Location</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-sm-6 widget">
+                        <div class="col-md-6 col-sm-6 widget">
                             <h5>Contact Us</h5>
                             <address>
-								<ul class="address_details">
-									<li><i class="glyphicon glyphicon-map-marker"></i> 25, Navagio Zakynthos, Greece</li>
-									<li><i class="glyphicon glyphicon-phone-alt"></i> Phone: 800 123 3456 </li>
-									<li><i class="fa fa-fax"></i> Fax: 800 123 3456</li>
-									<li><i class="fa fa-envelope"></i> Email: <a href="mailto:info@site.com">contact@site.com</a></li>
-								</ul>
-							</address>
+                                <ul class="address_details">
+                                    <li><i class="glyphicon glyphicon-map-marker"></i>Laganas, Zakynthos, Laganas, 29100, Greece</li>
+                                    <li><i class="glyphicon glyphicon-phone-alt"></i> Phone: 0565-099-468 </li>
+                                    <li><i class="fa fa-fax"></i> Fax: 800 123 3456</li>
+                                    <li><i class="fa fa-envelope"></i> Email: <a href="mailto:quangpn808@gmail.com">quangpn808@gmail.com</a></li>
+                                </ul>
+                            </address>
                         </div>
                     </div>
                 </div>
@@ -496,12 +418,12 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="copyrights">
-                                Copyright 2017 <a href="index.html">Hotel Zante</a> All Rights Reserved.
+                                Copyright 2023 <a href="index.html">Hotel Zante</a> All Rights Reserved.
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="social_media">
-                                <a class="facebook" data-original-title="Facebook" data-toggle="tooltip" href="#"><i class="fa fa-facebook"></i></a>
+                                <a class="facebook" data-original-title="Facebook" data-toggle="tooltip" href="https://www.facebook.com/zanteatlantishotel"><i class="fa fa-facebook"></i></a>
                                 <a class="twitter" data-original-title="Twitter" data-toggle="tooltip" href="#"><i class="fa fa-twitter"></i></a>
                                 <a class="googleplus" data-original-title="Google Plus" data-toggle="tooltip" href="#"><i class="fa fa-google-plus"></i></a>
                                 <a class="pinterest" data-original-title="Pinterest" data-toggle="tooltip" href="#"><i class="fa fa-pinterest"></i></a>
